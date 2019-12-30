@@ -1,8 +1,3 @@
-<h2>{{ movie.title }}</h2>
-
-<p>{{ movie.description }}</p>
-
-<video controls>
-        <source src="{{ movie.file }}" type="video/mp4">
-        Your browser does not support the video tag.
-</video>
+<h1 class="container" id="title">{{ movie.title | titlecase }} ({{ movie.releaseDate }})</h1>
+<app-video></app-video>
+<app-description [description]="movie.description"></app-description>

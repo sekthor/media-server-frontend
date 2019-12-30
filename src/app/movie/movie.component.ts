@@ -12,8 +12,9 @@ export class MovieComponent implements OnInit {
     'id':1,
     'title':'pulp fiction',
     'file': 'flix.sekthor.ch/movies/citizenfour_2014.mp4',
+    'releaseDate': 1994,
     'thumbnail': 'string',
-    'description': 'londg text lorem ipsum wort ist wort, satz'
+    'description': 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.'
   }
 
   constructor() { }
